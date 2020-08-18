@@ -11,7 +11,7 @@ torch.__version__
 # 定义参数
 BATCH_SIZE = 1024
 MODEL_PATH1 = 'checkpoints/LDNN1.pth'
-MODEL_PATH2 = 'checkpoints/ConfNet.pth'
+MODEL_PATH2 = 'checkpoints/LDNN2.pth'
 Bh = 0.75
 Bl = 0.20
 
