@@ -84,7 +84,7 @@ class Regularization(torch.nn.Module):
                 l_reg2 = torch.norm(w, p=1)
             elif p == 5:
                 temp2 = torch.norm(w, p=2, dim=0)
-                temp1 = torch.norm(w, p=1, dim=0)
+                temp1 = torch.norm(w, p=2, dim=1)
                 l_reg2 = torch.norm(temp2, p=1)
                 l_reg1 = torch.norm(temp1, p=1)
 
